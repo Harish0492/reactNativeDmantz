@@ -1,2 +1,2 @@
-# reactNativeDmantz
+# reactNative
 DmantZ
