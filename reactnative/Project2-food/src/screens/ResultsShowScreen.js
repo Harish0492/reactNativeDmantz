@@ -9,11 +9,11 @@ const ResultsShowScreen=({navigation})=>{
 
    const getResult= async id=>{
       const response= await yelp.get("/${id}");
-      setResults(response.data.businesses);
+      setResults(response.data);
    };
 
    useEffect(()=>{
-       getResult("id");
+       getResult(id);
     },[]);
 
   
